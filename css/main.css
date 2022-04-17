@@ -1,3 +1,57 @@
-.jumbotron{
-	background-image: url("img/header/menubalk.png");
+.topping {
+	top: 8%;
+ 	right: 70px;
 }
+.topping a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+
+}
+.zindexs{
+	z-index: 20;
+}
+.zindex{
+	z-index: 21;
+}
+
+.me-6{
+	margin-right: 6rem;
+}
+main{
+	background: #62c2cb;
+	height: 100px;
+}
+header{
+	height: 300px;
+}
+.imgDropdown{
+	visibility: hidden;
+	top: 167%;
+}
+.dropdowns{
+	z-index: -100;
+	position: relative;
+	/* display: none; */
+}
+.list{
+	margin-left: 60px;
+	margin-top: 50px;
+}
+.list a{
+	margin-bottom: 10px;
+}
+.topping a:hover{
+	color: #fff;
+	transition-duration: 0.6s;
+}
+section a:hover > .imgDropdown
+{
+	visibility:visible;
+}
+/* .topping:hover > .dropdowns{
+	display: block;
+	top: 37px;
+	left: 9rem;
+} */
+
