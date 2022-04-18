@@ -1,3 +1,4 @@
+/* header */
 .topping {
 	top: 8%;
  	right: 70px;
@@ -20,14 +21,15 @@
 }
 main{
 	background: #62c2cb;
-	height: 100px;
+	height: 600px;
 }
 header{
 	height: 300px;
 }
 .imgDropdown{
-	visibility: hidden;
 	top: 167%;
+	right: 400px;
+	display: none;
 }
 .dropdowns{
 	z-index: -100;
@@ -45,13 +47,108 @@ header{
 	color: #fff;
 	transition-duration: 0.6s;
 }
-section a:hover > .imgDropdown
+button:hover > .imgDropdown
 {
-	visibility:visible;
+	display: block;
+	background: #62c2cb;
 }
 /* .topping:hover > .dropdowns{
 	display: block;
 	top: 37px;
 	left: 9rem;
 } */
+section{
+	height: auto;
+}
+/* main */
 
+/* footer */
+.gap{
+	gap: 100px ;
+}
+.deg{
+	color: #fff;
+	transform: rotate(-5deg);
+}
+.breakpoint{
+	display: inline-block;
+}
+.img{
+	display: flex;
+	flex-direction: row;
+}
+/* responsive for mobile */
+@media screen and (max-width: 764px) {
+	div.breakpoint {
+	  display: flex!important;
+	  flex-direction: column!important;
+	  justify-content: center;
+	}
+	div.centering{
+		display: flex!important;
+		justify-content: center!important;
+		flex-direction: column!important;
+		align-items: center!important;
+	}
+	div.img{
+		margin-top: 0;
+		display: flex!important;
+		align-items: center!important;
+		justify-content: center!important;
+	}
+  }
+  /* goes to column when to close */
+  @media screen and (max-width: 1100px) {
+	div.gapping {
+	  display: flex!important;
+	  flex-direction: column!important;
+	}
+  }
+  @media screen and ( min-width: 764px) and (max-width: 1148px ) {
+	  div.img{
+		display: flex!important;
+		flex-direction: column!important;
+	  }
+  }
+body{
+	width: auto;
+	  overflow-x: hidden;
+}
+
+.none{
+	margin-bottom: 110px;
+}
+
+.margintop{
+	margin-top: 20px;
+}
+.margintop p{
+	font-size: 25px;
+	color: #62c2cb;
+}
+.gapping h3 {
+	color: #ffba00;
+}
+footer{
+	background: #21234f;
+}
+.img{
+	margin-top: 122px;
+	width: 100%;
+}
+.imgs{
+	width: 50px;
+	max-height: 50px;
+}
+.margins{
+	margin-top: 110px;
+}
+.margins p {
+	margin-bottom: 0;
+}
+.whole{
+	padding-bottom: 40px;
+}
+.right{
+	margin-right: 10px;
+}
