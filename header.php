@@ -1,15 +1,14 @@
 <!-- <div class="d-flex justify-content-end">
 	<img src="img/header/meldjeaan.png" class="img-fluid " alt="Responsive image">
 </div> -->
+<button class="dropdownmenu">solutiom</button>
 <nav class="">
 	<div class="container-fluid float-end p-0 ">
 		<div class="container float-end p-0">
 			<img class="img-fluid position-absolute d-block zindexs float-end" alt="Responsive image" src="img/header/menubalk.png">
 			<div class=" d-block zindex float-end marginNegative mb-3 position-absolute topping d-flex flex-row">
 				<a href="" class="me-6 h2">Home</a>
-				<section>
-					<a href="" class="me-6 h2 dropdown">Hoogbegaafd</a>
-				</section>
+				<a href="" class="me-6 h2 dropdown">Hoogbegaafd</a>
 				<div class="dropdowns mb-1 d-flex flex-column">
 					<div class="imgDropdown position-absolute">
 						<img src="img/header/dropdown.png" class="position-absolute" alt="Responsive image">
@@ -24,7 +23,6 @@
 				<a href="" class="me-6 h2">Topmodel</a>
 				<a href="" class="me-6 h2">over ons</a>
 				<a href="" class="me-6 h2">contact & route</a>
-
 			</div>
 		</div> <!-- container -->
 	</div> <!-- fluid -->
