@@ -6,8 +6,8 @@
 </div>
 <nav class="firstBackground">
 	<a href="" class="links">Home</a>
-	<div class="d-flex flex-column returnBack">
-		<a href="" class="links opens-dropdown">Hoogbegaafd</a>
+	<div class="d-flex flex-column">
+		<a href="" class="links opens-dropdown returnBack">Hoogbegaafd</a>
 		<div class="dropdown">
 			<a href="" class=""></a>
 			<a href="" class=""></a>
@@ -18,6 +18,36 @@
 	<a href="" class="links">over ons</a>
 	<a href="" class="links">contact & route</a>
 </nav>
+<div class="toggle">
+	<div class="mobile-container">
+
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+			<a href="#home" class="active">Top modellen</a>
+		<div id="myLinks" class="h hover">
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+		<a href="javascript:void(0);" class="icon toggler-example purple darken-3" onclick="myFunction()"><img src="img/icon/hamburger.png" alt="burger menu"></a>
+		<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<!-- End smartphone / tablet look -->
+	</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</div>
+    <!-- Links -->
 <!-- <nav class="">
 	<div class="container-fluid float-end p-0 ">
 		<div class="container float-end p-0">
