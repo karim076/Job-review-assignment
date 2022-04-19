@@ -9,9 +9,12 @@
 	<div class="d-flex flex-column">
 		<a href="" class="links opens-dropdown returnBack">Hoogbegaafd</a>
 		<div class="dropdown">
-			<a href="" class=""></a>
-			<a href="" class=""></a>
-			<a href="" class=""></a>
+			<div class="colum d-flex flex-column">
+				<a href="" class="">Marketeer</a>
+				<a href="" class="">Programmeur</a>
+				<a href="" class="">financieel</a>
+				<a href="" class="">bedrijfskunde</a>
+			</div>
 		</div>
 	</div>
 	<a href="" class="links">Topmodel</a>
