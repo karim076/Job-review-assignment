@@ -7,13 +7,13 @@
 <nav class="firstBackground">
 	<a href="" class="links">Home</a>
 	<div class="d-flex flex-column test">
-			<a href="" class="links opens-dropdown returnBack">Hoogbegaafd</a>
+			<a href="" class="links opens-dropdown ">Hoogbegaafd</a>
 			<div class="dropdown">
 				<div class="colum d-flex flex-column">
-					<a href="" class="">Marketeer</a>
-					<a href="" class="">Programmeur</a>
-					<a href="" class="">financieel</a>
-					<a href="" class="">bedrijfskunde</a>
+					<a href="" class="hover">Marketeer</a>
+					<a href="" class="hover">Programmeur</a>
+					<a href="" class="hover">financieel</a>
+					<a href="" class="hover">bedrijfskunde</a>
 				</div>
 			</div>
 		</div>
