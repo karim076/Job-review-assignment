@@ -132,6 +132,8 @@ main{
 	position: relative;
 	z-index: 20;
 	margin-top: -60px;
+}
+.row-one{
 	background: #edf8fa;
 }
 .wrapping{
@@ -191,7 +193,7 @@ main{
 .balk{
 	background: #dcf1f4;
 	width: 100%;
-	height: 150px;
+	height: 200px;
 }
 .balk h2{
 	color: #21234f;
