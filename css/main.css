@@ -115,11 +115,6 @@ nav{
 	width: 100%;
 	height: 162px;
 }
-.firstBackground{
-	margin-top: 20px;
-	width: 100%;
-	height: 162px;
-}
 nav .links{
 	margin-top: 20px;
 	margin-right: 8.7rem;
@@ -129,15 +124,11 @@ nav .links{
 	padding: 10px;
 	font-family: khand;
 }
-.nav .link:hover{
-	margin-top: 10px!important;
-}
 nav .links:hover{
 	color: #21234f;
 }
 .dropdown{
 	background-image: url("../img/header/dropdown.png");
-	background-clip: padding-box;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 350px;
@@ -146,13 +137,13 @@ nav .links:hover{
 	padding-top: 20px;
 }
 .test:hover{
-	margin-top: 360px;
+	margin-top: 350px;
 }
 .opens-dropdown:hover + .dropdown,.dropdown:hover
 {
 	display: block;
 	color: #21234f;
-	top: 24px;
+	top: 30px;
 }
 .hover:hover{
 	color: #94d3da;
