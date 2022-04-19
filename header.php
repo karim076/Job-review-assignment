@@ -6,14 +6,15 @@
 </div>
 <nav class="firstBackground">
 	<a href="" class="links">Home</a>
-	<div class="d-flex flex-column">
-		<a href="" class="links opens-dropdown returnBack">Hoogbegaafd</a>
-		<div class="dropdown">
-			<div class="colum d-flex flex-column">
-				<a href="" class="">Marketeer</a>
-				<a href="" class="">Programmeur</a>
-				<a href="" class="">financieel</a>
-				<a href="" class="">bedrijfskunde</a>
+	<div class="d-flex flex-column test">
+			<a href="" class="links opens-dropdown returnBack">Hoogbegaafd</a>
+			<div class="dropdown">
+				<div class="colum d-flex flex-column">
+					<a href="" class="">Marketeer</a>
+					<a href="" class="">Programmeur</a>
+					<a href="" class="">financieel</a>
+					<a href="" class="">bedrijfskunde</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -28,9 +29,11 @@
 		<div class="topnav">
 			<a href="#home" class="active">Top modellen</a>
 		<div id="myLinks" class="h hover">
-			<a href="#news">News</a>
-			<a href="#contact">Contact</a>
-			<a href="#about">About</a>
+			<a href="#">Home</a>
+			<a href="#">Hoogbegaafd</a>
+			<a href="#">Topmodel</a>
+			<a href="#">Over Ons</a>
+			<a href="#">Contact & route</a>
 		</div>
 		<a href="javascript:void(0);" class="icon toggler-example purple darken-3" onclick="myFunction()"><img src="img/icon/hamburger.png" alt="burger menu"></a>
 		<i class="fa fa-bars"></i>
