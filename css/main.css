@@ -293,6 +293,13 @@ main{
 		margin: 0 auto;
 	}
   }
+  .triangle{
+	  background: url("../img/main/back-bovenfooter.png");
+	  background-repeat: no-repeat;
+	  width: 100%;
+	  height: 163px;
+	  margin-top: -80px;
+  }
 /* footer */
 .gap{
 	gap: 100px ;
