@@ -1,17 +1,88 @@
-/* @font-face{
-	font-family: ;
+@font-face {
+    font-family: Jaldi;
+    src: url(../font/Jaldi-Bold.ttf);
+}
+@font-face {
+    font-family: khand;
+    src: url(../font/khand-medium.ttf);
+}
 
-} */
+/* header responsive side */
+@media screen and (max-width: 1400px) {
+	nav.firstBackground{
+		display: none;
+	}
+	div.toggle{
+		display: block;
+	}
+	div.wrapper{
+		width: 40%;
+	}
+  }
+  .mobile-container {
 
-/* header */
+	margin: auto;
+	background-color: #555;
+
+	color: white;
+	border-radius: 10px;
+  }
+  
+  .topnav {
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+  }
+  
+  .topnav #myLinks {
+	display: none;
+  }
+  
+  .topnav a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+  }
+  .hover a:hover{
+	  background-color: #edf8fa;
+  }
+  .topnav a.icon {
+	display: block;
+	position: absolute;
+	right: 40px;
+	top: -15px;
+  }
+  .topnav a.icon img {
+	width: 60px;
+	height: auto;
+  }
+  .topnav a:hover {
+	color: black;
+  }
+  
+  .active {
+	background-color: #62c2cb;
+	color: white;
+  }
+  /* header */
+  
+.toggle{
+	display: none;
+}
+
 .wrapper{
 	width: 90%;
 	margin: 0 auto;
 
 }
 .degs{
+	font-size: 50px;
 	transform: rotate(-3deg);
 	margin-bottom: 50px;
+	font-family: Jaldi;
+	color: #21234f;
 }
 header{
 	position: relative;
@@ -30,11 +101,12 @@ nav{
 }
 nav .links{
 	margin-top: 30px;
-	margin-right: 7rem;
+	margin-right: 8.7rem;
 	color: #fff;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 26px;
 	padding: 10px;
+	font-family: khand;
 }
 nav .links:hover{
 	color: #21234f;
@@ -45,11 +117,11 @@ nav .links:hover{
 	width: 100%;
 	height: 350px;
 	background-position: center;
-	margin-top: 23px;
+	margin-top: 26px;
 	display: none;
 }
 .returnBack:hover{
-	margin-top: 380px;
+	margin-top: 405px;
 }
 .opens-dropdown:hover + .dropdown
 {
@@ -60,8 +132,70 @@ main{
 	position: relative;
 	z-index: 20;
 	margin-top: -60px;
-	background: #cb6262;
+	background: #edf8fa;
+}
+.wrapping{
+	padding-top: 150px;
+	width: 65%;
+	margin: 0 auto;
+	margin-bottom: -83px;
+}
+.jongen{
+	background: url("../img/main/jongen.png");
+	background-repeat: no-repeat;
+	width: 500px;
 	height: 600px;
+	display: flex;
+    align-items: flex-end!important;
+}
+.meisje{
+	background: url("../img/main/meisje.png");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 600px;
+	display: flex;
+    align-items: flex-end!important;
+}
+.meisje h1{
+	padding-bottom: 60px;
+	padding-left: 50px;
+	font-size: 40px;
+	color: #fff;
+	font-family: Jaldi;
+}
+.jongen h1{
+	padding-bottom: 60px;
+	padding-left: 60px;
+	font-size: 40px;
+	color: #fff;
+	font-family: Jaldi;
+}
+/* responsive jongen meisje 1372 */
+@media screen and (max-width: 1652px) {
+	div.wrapping{
+		width: 75%;
+	}
+  }
+  @media screen and (max-width: 1372px) {
+	div.wrapping{
+		width: 90%;
+	}
+  }
+  @media screen and (max-width: 1100px) {
+	div.wrapping{
+		display: flex!important;
+		align-items: center!important;
+		flex-direction: column!important;
+	}
+  }
+.balk{
+	background: #dcf1f4;
+	width: 100%;
+	height: 150px;
+}
+.balk h2{
+	color: #21234f;
+	border-bottom: 1px solid #21234f;
 }
 /* footer */
 .gap{
