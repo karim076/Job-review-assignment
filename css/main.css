@@ -12,7 +12,7 @@ html,body{
 }
 /* header responsive side */
 @media screen and (max-width: 1400px) {
-	nav.firstBackground{
+	nav{
 		display: none;
 	}
 	div.toggle{
@@ -75,7 +75,7 @@ html,body{
 	margin-left: 50px;
 }
 .colum a{
-	margin-top: 5px;
+	padding-top: 20px;
 	font-size: 30px;
 	text-decoration: none;
 	color: #fff;
@@ -340,10 +340,10 @@ main{
   .textBlock{
 	  position: relative;
 	  z-index: 20;
-	  margin-left: 20px;
+	  margin-right: -241px;
 	  padding: 40px;
 	  background: #fff;
-	  width: 60%;
+	  width: 67%;
 	  height: auto;
 	  border-top-right-radius: 30%;
 	  border-top-left-radius: 30%;
@@ -384,7 +384,7 @@ main{
 .around{
 	position: relative;
 	z-index: -2;
-	margin-bottom: -640px;
+	margin-bottom: -690px;
 	overflow: hidden;
 }
 .whole{
@@ -392,10 +392,18 @@ main{
 	z-index: 100;
 	background: #21234f;
 }
-/* responsive col1 and col2 1751 */
+/* responsive col1 and col2 1449 */
 @media  screen and (max-width: 1751px) {
 	.col2 .button{
 		margin-right: 98px;
+	}
+	div.textBlock{
+		margin-right: 46px;
+	}
+}
+@media  screen and (max-width: 1751px) {
+	div.around{
+		margin-bottom: -620px;
 	}
 }
 @media  screen and (max-width: 1327px) {
@@ -419,6 +427,17 @@ main{
 		margin-bottom: -474px;
 	}
 }
+
+@media  screen and (max-width: 823px) {
+	div.around{
+		margin-bottom: -377px;
+	}
+}
+@media  screen and (max-width: 757px) {
+	div.textBlock{
+		width: 105%;
+	}
+}	
 /* footer */
 .footer{
 	position: relative;
