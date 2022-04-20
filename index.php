@@ -49,7 +49,9 @@
 			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur doloribus excepturi magni consequatur molestias dolor reprehenderit nostrum vitae? Suscipit tenetur quis officiis nulla, adipisci voluptatum. Voluptates qui impedit fugit tempora reiciendis dolorum cumque sunt nam quam, debitis vel expedita, officia recusandae. Ex reiciendis voluptas optio esse facere magnam eos.</p>
 		</div>
 	</div>
-	<div class="triangle"></div>	
+	<div class="triangle">
+		<img class="triangle" src="img/main/back-bovenfooter.png" alt="omgedraaide driehoek">
+	</div>	
 	<div class="around">
 		<div class="container d-flex justify-content-around">
 			<div class="col1">
@@ -67,7 +69,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="lastImg"></div>
+	<div class="stretch">
+		<img src="img/footer/back2.png" class="lastImg" alt="Meisje">
+	</div>
 	</main>
 	<footer>
 		<?php require_once 'footer.php' ?>
