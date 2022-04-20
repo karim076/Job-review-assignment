@@ -306,6 +306,58 @@ main{
 	  height: 163px;
 	  margin-top: -80px;
   }
+  .around{
+	  background: #62c2cb;
+  }
+  .col1{
+	  width: 60%;
+  }
+  .col1 h1{
+	  font-family: khand;
+	  font-weight: bold;
+  }
+  .col1 p{
+	  margin-top: 60px;
+	  margin-bottom: 60px;
+	  color: #21234f;
+	  font-weight: 400;
+	  font-size: 20px;
+	  line-height:1.8em
+  }
+  .col2{
+	  width: 75%;
+  }
+  .col2 p{
+	  text-align: center;
+  }
+  .col2 img{
+	  margin-left: -80px;
+	  margin-top: -80px;
+  }
+  .textBlock{
+	  padding: 40px;
+	  background: #fff;
+	  width: 60%;
+	  height: auto;
+	  border-radius: 27%;
+  }
+  .col2 .button{
+	  margin-top: 40px;
+	  font-size: 18px;
+	  border-radius: 50px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  padding-left: 40px;
+	  padding-right: 40px;
+	  background: #21234f;
+	  color: #fff;
+  }
+  .col2 .button span{
+	  font-size: 20px;
+	  font-family: khand;
+	  white-space: normal;
+	  font-weight: bold;
+  }
 /* footer */
 .gap{
 	gap: 100px ;

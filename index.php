@@ -46,11 +46,26 @@
 		<div class="loremText">
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur ipsum voluptatum possimus, voluptas excepturi optio reiciendis aliquam omnis minus, nam necessitatibus illo similique beatae!</p>
 			<br>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit consequatur doloribus amet minus reprehenderit quidem qui sint iure, aliquam porro at quod eligendi saepe illum. Libero a dolores tempore dolore doloremque tenetur eum debitis distinctio, blanditiis magni amet iure rem, ullam quidem vel laboriosam. Dolore consequuntur sapiente atque inventore libero nam dolores, iusto pariatur quos recusandae magnam perferendis. Totam quibusdam rem, cumque commodi eveniet fugiat distinctio, modi eligendi minus, qui ab. Eius blanditiis eos fugit laborum labore dignissimos officia quidem hic nulla provident, iusto molestias minima tempore possimus voluptatum dolorum expedita aut iste dolore. Odit, eum. Quae animi sapiente consectetur. Veniam adipisci quaerat eius sed esse ab expedita ad facilis perferendis quas. Voluptatibus corrupti neque voluptas iure illum eum. Magnam ea quaerat vitae? Ipsum numquam repellat eaque quibusdam tempora? Natus eveniet veniam, incidunt reiciendis rerum dicta id non sapiente libero vitae inventore? Sit quia itaque sapiente aut, accusantium enim in dolores? Quibusdam tenetur voluptatem, quos commodi temporibus vel ipsum, dolore nostrum dolorum tempore quam earum nobis est quaerat modi. Error molestias et magnam soluta!</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequuntur doloribus excepturi magni consequatur molestias dolor reprehenderit nostrum vitae? Suscipit tenetur quis officiis nulla, adipisci voluptatum. Voluptates qui impedit fugit tempora reiciendis dolorum cumque sunt nam quam, debitis vel expedita, officia recusandae. Ex reiciendis voluptas optio esse facere magnam eos.</p>
 		</div>
 	</div>
-	<div class="triangle">
-
+	<div class="triangle"></div>	
+	<div class="around">
+		<div class="container d-flex justify-content-around">
+			<div class="col1">
+				<h1 class=" text-white">Referenties of iets anders</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur ipsum voluptatum possimus, voluptas excepturi optio reiciendis aliquam omnis minus, nam necessitatibus illo similique beatae!
+				<br><br><br>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis provident cupiditate adipisci minima, vero recusandae nostrum? Sit, distinctio sint eius debitis suscipit odio iusto vitae qui magni. Repellat aperiam expedita perspiciatis tempore a error recusandae dolorem, distinctio esse sapiente minus beatae vitae quod, omnis, enim quisquam aliquid magni! Est laborum vitae assumenda, dolorem adipisci incidunt. Rem incidunt itaque, corporis eum dignissimos animi dolorem quam voluptatem recusandae adipisci ullam praesentium quia possimus explicabo culpa eos laudantium.</p>
+				<img src="img/main/button-meerinfo.png" alt="">
+			</div>
+			<div class="col2 d-flex justify-content-center align-items-center flex-column">
+				<div class="textBlock d-flex flex-row">
+					<p><img src="img/main/quote-tekens.png" alt="quote teken" class="p position-relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi laudantium distinctio tempora nobis rem nesciunt non. Praesentium eos cum, debitis tempore voluptatum veniam nostrum.Quidem animi laudantium distinctio tempora nobis rem nesciunt non. Praesentium eos cum, debitis tempore voluptatum veniam nostrum</p>
+				</div>
+				<div class="button"><span>NAOMI</span>,Topvormgeefster</div>
+			</div>
+		</div>
 	</div>
 	</main>
 	<footer>
