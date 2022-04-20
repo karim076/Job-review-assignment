@@ -12,8 +12,8 @@ html,body{
 }
 /* header responsive side */
 @media screen and (max-width: 1400px) {
-	nav{
-		display: none;
+	section{
+		display: none!important;
 	}
 	div.toggle{
 		display: block;
