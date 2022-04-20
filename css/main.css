@@ -339,10 +339,10 @@ main{
 	  background: #fff;
 	  width: 60%;
 	  height: auto;
-	  border-top-right-radius: 27%;
-	  border-top-left-radius: 27%;
-	  border-bottom-left-radius: 20%;
-	  border-bottom-right-radius: 20%;
+	  border-top-right-radius: 30%;
+	  border-top-left-radius: 30%;
+	  border-bottom-left-radius: 25%;
+	  border-bottom-right-radius: 25%;
   }
   .col2 .button{
 	  margin-top: 40px;
