@@ -7,7 +7,7 @@
 <nav class="firstBackground d-flex align-items-center">
 	<a href="" class="links">Home</a>
 	<div class="d-flex flex-column test">
-			<a href="" class="links opens-dropdown ">Hoogbegaafd</a>
+			<a href="" class="links opens-dropdown">Hoogbegaafd</a>
 			<div class="dropdown position-relative">
 				<div class="colum d-flex flex-column">
 					<a href="" class="hover">Marketeer</a>

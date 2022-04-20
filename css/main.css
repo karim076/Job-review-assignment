@@ -136,10 +136,16 @@ nav .links:hover{
 	display: none;
 	padding-top: 20px;
 }
-.test:hover{
+.test:hover {
 	margin-top: 350px;
 }
-.opens-dropdown:hover + .dropdown,.dropdown:hover
+.opens-dropdown:hover + .dropdown,.dropdown:hover,.test:hover
+{
+	display: block;
+	color: #21234f;
+	top: 30px;
+}
+.dropdown:hover+ .opens-dropdown,.opens-dropdown:hover 
 {
 	display: block;
 	color: #21234f;
