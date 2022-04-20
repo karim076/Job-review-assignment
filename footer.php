@@ -10,7 +10,7 @@
                 <h3>(012) 3456 789</h3>
                 <h3>vragen@website.nl</h3>
             </div>
-            <p>© Karim Alkichouhi</p>
+            <p id="p">© Karim Alkichouhi</p>
         </div>
         <div class="col-md-2 xl margintop centering">
             <div class="margintop">
