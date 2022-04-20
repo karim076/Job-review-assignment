@@ -67,6 +67,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="lastImg"></div>
 	</main>
 	<footer>
 		<?php require_once 'footer.php' ?>

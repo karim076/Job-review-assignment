@@ -361,6 +361,10 @@ main{
 	  white-space: normal;
 	  font-weight: bold;
   }
+.lastImg{
+	background: url("../img/footer/back1.png");
+	background-repeat: no-repeat;
+}
 /* footer */
 .gap{
 	gap: 100px ;
