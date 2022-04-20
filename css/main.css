@@ -71,11 +71,11 @@ html,body{
   }
   /* header */
 .colum{
-	padding: 20px;
+	padding: 10px;
 	margin-left: 50px;
 }
 .colum a{
-	margin-top: 15px;
+	margin-top: 5px;
 	font-size: 30px;
 	text-decoration: none;
 	color: #fff;
@@ -116,7 +116,8 @@ nav{
 	height: 162px;
 }
 nav .links{
-	margin-top: 20px;
+	margin-top: 43px;
+	padding-bottom: 32px!important;
 	margin-right: 8.7rem;
 	color: #fff;
 	text-decoration: none;
@@ -136,21 +137,20 @@ nav .links:hover{
 	display: none;
 	padding-top: 20px;
 }
-.test:hover {
-	margin-top: 350px;
+.test:hover{
+	margin-top: 355px;
 }
-.opens-dropdown:hover + .dropdown,.dropdown:hover,.test:hover
-{
+.test:hover .opens-dropdown{
 	display: block;
 	color: #21234f;
-	top: 30px;
 }
-.dropdown:hover+ .opens-dropdown,.opens-dropdown:hover 
-{
+.test:hover .dropdown{
 	display: block;
-	color: #21234f;
-	top: 30px;
+	margin-top: 10px;
+	color: #62c2cb;
 }
+
+
 .hover:hover{
 	color: #94d3da;
 }
@@ -248,6 +248,7 @@ main{
 .rowTwo{
 	width: 80%;
 	margin: 0 auto;
+	margin-bottom: -69px;
 }
 .loremText{
 	width: 70%;
@@ -300,14 +301,15 @@ main{
 	}
   }
   .triangle{
-	  background: url("../img/main/back-bovenfooter.png");
 	  background-repeat: no-repeat;
 	  width: 100%;
 	  height: 163px;
-	  margin-top: -80px;
   }
   .around{
 	  background: #62c2cb;
+	  padding-bottom: 250px;
+	  position: relative;
+	  z-index: 12;
   }
   .col1{
 	  width: 60%;
@@ -325,6 +327,7 @@ main{
 	  line-height:1.8em
   }
   .col2{
+	  margin-left: 20px;
 	  width: 75%;
   }
   .col2 p{
@@ -335,6 +338,9 @@ main{
 	  margin-top: -80px;
   }
   .textBlock{
+	  position: relative;
+	  z-index: 20;
+	  margin-left: 20px;
 	  padding: 40px;
 	  background: #fff;
 	  width: 60%;
@@ -354,6 +360,7 @@ main{
 	  padding-right: 40px;
 	  background: #21234f;
 	  color: #fff;
+	  margin-right: -93px;
   }
   .col2 .button span{
 	  font-size: 20px;
@@ -362,10 +369,65 @@ main{
 	  font-weight: bold;
   }
 .lastImg{
-	background: url("../img/footer/back1.png");
 	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: contain;
+	position: relative;
+	z-index: 21;
+	margin-right: -165px;
+}
+.stretch{
+	width: 100%;
+	height: 100%;
+}
+.around{
+	position: relative;
+	z-index: -2;
+	margin-bottom: -640px;
+	overflow: hidden;
+}
+.whole{
+	position: relative;
+	z-index: 100;
+	background: #21234f;
+}
+/* responsive col1 and col2 1751 */
+@media  screen and (max-width: 1751px) {
+	.col2 .button{
+		margin-right: 98px;
+	}
+}
+@media  screen and (max-width: 1327px) {
+	div.loremText{
+		margin-bottom: 50px;
+	}
+	.col1{
+		align-items: center;
+	}
+	.col2 .button{
+		margin-right: 20px;
+	}
+	div.container{
+		flex-direction: column!important;
+		align-items: center!important;
+	}
+	div.col1{
+		margin-bottom: 100px;
+	}
+	div.around {
+		margin-bottom: -474px;
+	}
 }
 /* footer */
+.footer{
+	position: relative;
+	z-index: 200;
+}
+main{
+	position: relative;
+	z-index: 12;
+}
 .gap{
 	gap: 100px ;
 }
